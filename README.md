@@ -16,7 +16,7 @@ This project analyzes Walmart retail sales data and predicts weekly sales using 
 - Exploratory Data Analysis (EDA)
 - Weekly sales prediction using Linear Regression
 - Model evaluation using RMSE
-- Interactive dashboards
+- Visualization using Databricks charts and exported results
 
 ## Dataset
 Walmart historical sales dataset
@@ -25,3 +25,15 @@ Walmart historical sales dataset
 - Sales trends
 - Store-wise performance
 - Actual vs predicted weekly sales
+
+  ## Repository Structure
+
+- `notebooks/` : Databricks PySpark implementation for data processing and model training
+- `screenshots/` : Output visualizations used in the project report
+- `README.md` : Project documentation
+
+## Execution
+
+The project was developed and executed using Databricks Community Edition.
+The notebook can be imported into Databricks and run cell-by-cell.
+
